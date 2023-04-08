@@ -1,0 +1,33 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+    background-color: #ecf0f1;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 50;
+  }
+  
+  .sidebar li {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #333;
+  }
+  
